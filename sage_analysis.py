@@ -58,7 +58,7 @@ with pd.ExcelWriter("sage_report.xlsx") as writer:
     summary.to_excel(writer, sheet_name="Summary", index=False)
 
 print("✅ Excel report saved as 'sage_report.xlsx'")
-print("\n✅ Done! Files saved in your sage project folder.")
-print("   Send these files to your teacher:")
+print("\n✅ Done! Files saved insage project folder.")
+print("   Send these files to the customer :")
 print("   - sage_report.xlsx")
 print("   - financial_summary.png")
