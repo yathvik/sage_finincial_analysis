@@ -6,12 +6,9 @@ sales = pd.read_csv("sales_invoice_list.csv")
 purchases = pd.read_csv("purchase_invoice_list.csv")
 
 # ============================================
-# Use the correct column names from your files
+# Use the correct column names from the  files
 # ============================================
-# Sales columns: 'Invoice Number', 'Invoice Date', 'Customer', 'Total', etc.
-# Purchase columns: 'Invoice Date', 'Supplier', 'Total', etc.
 
-# Use 'Total' column for both (as shown in your column lists)
 sales_amount = sales["Total"].sum()
 purchases_amount = purchases["Total"].sum()
 
